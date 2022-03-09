@@ -1,0 +1,36 @@
+{
+  "name": "parcel-transformer-edge",
+  "version": "0.1.0",
+  "description": "Parcel v2 transformer plugin for Edge template",
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tknf/parcel-transformer-edge.git"
+  },
+  "author": "Tasuku Kuribayashi <kuribayashi@tknf.net>",
+  "license": "MIT",
+  "homepage": "https://github.com/tknf/parcel-transformer-edge",
+  "keywords": [
+    "parcel",
+    "parcel-transformer",
+    "parcel-plugin",
+    "edge"
+  ],
+  "bugs": {
+    "url": "https://github.com/tknf/parcel-transformer-edge/issues"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-beta.1",
+    "edge.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "dev": "parcel examples/index.edge"
+  }
+}

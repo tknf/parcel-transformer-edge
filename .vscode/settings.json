@@ -1,0 +1,9 @@
+{
+  "emmet.includeLanguages": {
+    "edge": "html"
+  },
+  "files.associations": {
+    ".parcelrc": "json",
+    ".edgerc": "json"
+  }
+}
