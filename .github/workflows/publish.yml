@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Install Dependencies
-        run: npm ci
+        run: yarn
       
       - name: Publish
         run: npm publish
